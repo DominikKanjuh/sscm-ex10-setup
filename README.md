@@ -1,4 +1,4 @@
-# Exercise 10 - Statistical Simulation and Computerintensive Methods (107.330)
+# Setup for Exercise 10 - Statistical Simulation and Computerintensive Methods (107.330)
 
 This repository contains the setup for running Exercise 10 of the course **Statistical Simulation and Computerintensive Methods (107.330)** locally using Docker and Docker Compose.
 
