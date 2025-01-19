@@ -16,8 +16,8 @@ Before you begin, ensure you have the following installed on your system:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/DominikKanjuh/sscm-ex10-docker.git
-cd sscm-ex10-docker
+git clone git@github.com:DominikKanjuh/sscm-ex10-setup.git
+cd sscm-ex10-setup
 ```
 
 ### Step 2: Build the Docker environment and run the application
