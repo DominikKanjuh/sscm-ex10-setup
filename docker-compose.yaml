@@ -1,0 +1,15 @@
+version: '1.0'
+services:
+  rstudio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./rmd-scripts:/home/rstudio/rmd-scripts
+    environment:
+      USER: rstudio
+      PASSWORD: rstudio
+    stdin_open: true
+    tty: true
