@@ -22,7 +22,7 @@ cd sscm-ex10-setup
 
 ### Step 2: Build the Docker environment and run the application
 
-Build the Docker image specified in the `docker-compose.yml` file and run the service:
+Build the Docker image specified in the `docker-compose.yaml` file and run the service:
 
 ```bash
 docker-compose up --build
@@ -52,5 +52,5 @@ This will stop and clean up the containers without removing the built images.
 ## File Structure
 
 - `rmd-scripts/`: Contains the R Markdown script for the exercise
-- `docker-compose.yml`: Defines the services, networks, and volumes required for the application.
+- `docker-compose.yaml`: Defines the services, networks, and volumes required for the application.
 - `Dockerfile`: Specifies the image configuration for the application.
